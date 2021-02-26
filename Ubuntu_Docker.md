@@ -1,3 +1,4 @@
+```bash
 sudo apt update
 sudo apt install apt-transport-https
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -6,10 +7,13 @@ sudo apt update
 sudo apt install docker-ce
 sudo systemctl status docker
 sudo usermod -aG docker $USER
+```
 >>>logout/login<<<
 
+```bash
 docker run hello-world
+```
 
-
-@ adv4000
+### Copyright
+[adv4000](https://github.com/adv4000)
 
