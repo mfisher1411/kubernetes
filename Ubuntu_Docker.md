@@ -8,7 +8,7 @@ sudo apt install docker-ce
 sudo systemctl status docker
 sudo usermod -aG docker $USER
 ```
->>>logout/login<<<
+logout/login из системы
 
 ```bash
 docker run hello-world
