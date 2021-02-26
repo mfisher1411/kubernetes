@@ -25,7 +25,7 @@ docker run hello-world
 
 Ставим docker-compose.
 
-Имеет смысл проверить версию последнего релиза (https://github.com/docker/compose/releases) и заменить "1.23.2" в команде ниже
+Имеет смысл проверить версию последнего [релиза](https://github.com/docker/compose/releases) и заменить "1.23.2" в команде ниже
 
 ```bash
 sudo curl -L https://github.com/docker/compose/releases/download/1.23.2/docker-compose-Linux-x86_64 -o /usr/local/bin/docker-compose
@@ -37,5 +37,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
 
-@ daznext
+
+####Copyright
+[daznext](https://gist.github.com/daznext)
 
